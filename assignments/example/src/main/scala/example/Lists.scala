@@ -41,6 +41,7 @@ object Lists {
     * @throws java.util.NoSuchElementException if `xs` is an empty list
     */
   def max(xs: List[Int]): Int = {
+    if(xs.isEmpty) throw new NoSuchElementException()
     def max(xs: List[Int], value: Int): Int =
       if(xs.isEmpty) value
       else max(xs.tail, math.max(xs.head, value))
