@@ -51,6 +51,6 @@ assignmentsMap := {
       partId = "9eOy7",
       maxScore = 10d,
       styleScoreRatio = 0.2,
-      styleSheet = (baseDirectory.value / "scalastyle" / "calculator.xml").getPath )
+      styleSheet = (baseDirectory.value / "scalastyle" / "calculator.xml").getPath)
   )
 }
